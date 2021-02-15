@@ -1,0 +1,20 @@
+<resources>
+    <string name="sun">SUN</string>
+    <string name="mon">MON</string>
+    <string name="tue">TUE</string>
+    <string name="wed">WED</string>
+    <string name="thu">THU</string>
+    <string name="fri">FRI</string>
+    <string name="sat">SAT</string>
+    <string name="app_name">Ernr</string>
+    <string name="title_jobs">Jobs</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_schedule">Schedule</string>
+    <string name="pay_rate">Pay Rate</string>
+    <string name="job_name">Job Name</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_apply">Apply</string>
+    <string name="per_hour">per hour</string>
+    <string name="pay_day">Pay Day:</string>
+    <string name="next_shit">Next Shift:</string>
+</resources>

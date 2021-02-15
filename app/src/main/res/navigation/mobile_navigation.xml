@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/navigation_dashboard">
+
+    <fragment
+        android:id="@+id/navigation_schedule"
+        android:name="dev.erratika.ernr.ui.schedule.ScheduleFragment"
+        android:label="@string/title_schedule"
+        tools:layout="@layout/fragment_schedule" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="dev.erratika.ernr.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_jobs"
+        android:name="dev.erratika.ernr.ui.jobs.JobListFragment"
+        android:label="@string/title_jobs"
+        tools:layout="@layout/fragment_job_list" >
+        <action
+            android:id="@+id/action_navigation_jobs_to_navigation_job"
+            app:destination="@id/navigation_job" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_job"
+        android:name="dev.erratika.ernr.JobDetailFragment"
+        android:label="fragment_job_detail"
+        tools:layout="@layout/fragment_job_detail" />
+</navigation>
